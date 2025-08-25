@@ -1,0 +1,41 @@
+{
+    "id": "itempiles-bf",
+    "title": "Item Piles: Black Flag",
+    "description": "This module adds support for the Black Flag system within the Item Piles module",
+    "version": "1.0.0",
+    "library": "false",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "13",
+        "maximum": "13"
+    },
+    "authors": [
+        {
+            "name": "Niii989",
+            "url": "https://github.com/Niii989",
+            "discord": "Niii#4095",
+            "flags": {}
+        }
+    ],
+    "esmodules": [
+        "dist/module.js"
+    ],
+    "relationships": {
+        "requires": [
+            {
+                "id": "item-piles",
+                "type": "module",
+                "manifest": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/releases/latest/download/manifest.json",
+                "compatibility": {
+                    "minimum": "3.2.21",
+                    "verified": "3.2.21"
+                }
+            }
+        ]
+    },
+    "url": "https://github.com/Niii989/itempiles-bf",
+    "manifest": "https://github.com/Niii989/itempiles-bf/releases/latest/download/module.json",
+    "download": "https://github.com/Niii989/itempiles-bf/releases/download/1.0.0/module.zip",
+    "readme": "https://github.com/Niii989/itempiles-bf/blob/master/README.md",
+    "bugs": "https://github.com/Niii989/itempiles-bf/issues"
+}
